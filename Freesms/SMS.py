@@ -6,8 +6,8 @@ from tkinter import messagebox
 from datetime import *
 
 def send():
-    sender='8390506325'
-    password='IamJRKOO6'
+    sender='1234567890' #YOUR MOBILE NUMBER
+    password='PASSWORD' #YOUR PASSWORD
     receiver=str(entry1.get())
     message=str(entry2.get('0.0',END))
     if len(receiver)==10:
@@ -59,7 +59,7 @@ def closeA():
 def afterlogin():
     username=str(entry11.get())
     password=str(entry12.get())
-    if(username=="8390506325" and password=="IamJRKOO6"):
+    if(username=="1234567890" and password=="PASSWORD"):
         messagebox.showinfo("Success","Login Successful!!!")
         rootA.destroy()
         login()
